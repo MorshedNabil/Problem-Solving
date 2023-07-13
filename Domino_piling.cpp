@@ -1,0 +1,13 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    int m, n, domino;
+    cin >> m >> n;
+
+    domino = (m * n) / 2;
+    cout << domino << "\n";
+
+    return 0;
+}
