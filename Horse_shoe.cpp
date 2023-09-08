@@ -15,7 +15,7 @@ int main()
 
     for (int i = 0; i < 3; i++)
     {
-        if(shoe[i] == shoe[i + 1]) // if the shoe's colors are same the we have to chng one so counter will be increase
+        if(shoe[i] == shoe[i + 1]) // if the shoe's colors are same then we have to chng one so counter will be increase
             count++;
     }
 
